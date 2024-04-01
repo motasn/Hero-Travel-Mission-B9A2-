@@ -109,9 +109,54 @@ main{
 
 /*banner section style */
 .banner-container{
-    background-image: url('../Images/Group\ 13.png');
+    background-image: url('../Images/Group\ 13.png') ;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-bottom:100px ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   padding:40px 60px ;
 
-    width: 100%;
+}
+
+
+
+.banner-text h1 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-text p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+
+}
+
+.maanu-bar{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+
+}
+
+.maanu-bar ul input{
+padding:16px;
+border-radius: 8px;
+background: #FFF;
+border: 0;
+
 }
 
 
@@ -122,6 +167,8 @@ main{
     display: flex;
     justify-content: space-between;
     gap: 50px;
+   margin-bottom:170px ;
+
 }
 .tour-text{
     justify-content: center;
@@ -145,11 +192,63 @@ font-style: normal;
 font-weight: 400;
 line-height: 26px;
 }
-.tour-text 
 
+/* optional-section style */
 
+.optional-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+   
+    align-self: center;
 
+}
+.optional-section .tour-text{
+    align-self: center;
+    justify-content: center;
 
+}
 
+.optional-section .text-list ul li{
+    color: #131318;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 162.5% */
+}
 
+footer{
+    width: 1350px;
+height: 502px;
+  border-radius: 10px;
+    background: rgba(19, 19, 24, 0.05);
+}
 
+footer .header-titel{
+    padding-top:60px ;
+}
+.footer-text{
+    color: #5A5A5D;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+padding: 20px 170px;
+}
+
+.icon{
+  text-align: center;
+  padding-bottom: 40px;
+}
+.icon i{
+    gap: 20px;
+    padding-right: 20px ;
+}
+
+footer hr{
+    width: 872px;
+height: 1px;
+background: rgba(253, 253, 255, 0.1);
+/* margin:  50px 0; */
+}
