@@ -5,6 +5,45 @@
 }
 
 /* common style */
+.share-header{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.share-text{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.choose-text h3{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.choose-text p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+
 .same-text{
     color: #FF5400;
 font-family: Mulish;
@@ -193,6 +232,15 @@ font-weight: 400;
 line-height: 26px;
 }
 
+/* Destination style */
+
+.Destination-container{
+flex-direction: column;
+}
+
+
+
+
 /* optional-section style */
 
 .optional-section{
@@ -218,6 +266,48 @@ font-weight: 700;
 line-height: 26px; /* 162.5% */
 }
 
+
+/* Newsletter section style */
+.Newsletter-container{
+    display: flex;
+    gap: 24px;
+    padding:100px 0 ;
+}
+
+.Newsletter-text{
+    border-radius: 16px;
+border: 1px solid #FF5400;
+    padding: 30px;
+}
+
+.Newsletter-input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+width: 393px;
+
+}
+
+.Newsletter-input input , b{
+    padding: 16px 120px 16px 20px;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.btn-main .Subscribe{
+    width: 393px;
+height: 52px;
+}
+
+
+
+
+
+
+
+
+/* footer style */
 footer{
     width: 1350px;
 height: 502px;
