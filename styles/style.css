@@ -429,11 +429,28 @@ background: rgba(253, 253, 255, 0.1);
 @media screen and (max-width: 576px) {
     nav,
     .Newsletter-container,
-    .tour-container {
+    .tour-container,.optional-section, .row-1,.row-2,.row-3 {
         flex-direction: column;
-        
     }
-    .banner-text{
-      
+    .tour-container{
+      margin: 5px 15px;
     }
+    .tour-img img{
+        width: 330px;
+    }
+
+    .banner-container{
+        width: 335px;
+height: 483px;
+    }
+
+    .row-1,.row-2,.row-3  {
+    padding: 5px 10px;
+   } 
+#img-pic{
+    border-radius: 16px;
+    width: 335px;
+height: 176px;
+}
+    
 }
