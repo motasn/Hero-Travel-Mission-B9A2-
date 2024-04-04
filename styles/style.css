@@ -298,15 +298,13 @@ grid-template-columns: repeat(2,1fr) ;
    align-items: center;
 }
 .card{
-    width: 573px;
-height: 284px;
+  
 border-radius: 16px;
 border: 1px solid rgba(251, 181, 99, 0.20);
 background: rgba(251, 181, 99, 0.05);
 }
 .card-world{
-    width: 573px;
-height: 284px;
+   
 border-radius: 16px;
 border: 1px solid rgba(41, 206, 246, 0.20);
 background: rgba(41, 206, 246, 0.05);
@@ -421,17 +419,24 @@ background: rgba(253, 253, 255, 0.1);
 
 /* Resposive style */
 
-.hide{
-    display: none;
-}
+
 
 /* mobile  devices responsive*/
 @media screen and (max-width: 576px) {
     nav,
     .Newsletter-container,
-    .tour-container,.optional-section, .row-1,.row-2,.row-3 {
+    .tour-container,
+    .optional-section, .row-1,.row-2,.row-3 {
         flex-direction: column;
     }
+    .service-card {
+        display: grid;
+      grid-template-columns: repeat(1,1fr) ;
+         gap: 24px;
+         padding: 24px;
+      }
+
+
     .tour-container{
       margin: 5px 15px;
     }
