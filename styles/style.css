@@ -440,17 +440,53 @@ background: rgba(253, 253, 255, 0.1);
     }
 
     .banner-container{
-        width: 335px;
-height: 483px;
+    padding:15px ;
+    margin-bottom:10px ;
     }
 
     .row-1,.row-2,.row-3  {
     padding: 5px 10px;
+    margin: 0 20px;   
    } 
 #img-pic{
     border-radius: 16px;
     width: 335px;
 height: 176px;
 }
+.header-nav li{
+    margin-right: 20px;
+}  
+.header-nav {
+    margin: 10px 70px;
+}
+
+.Newsletter-img img{
+    width: 335px;
+    margin: 5px 15px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.share-header{
+    text-align: center;
     
+}
+.Newsletter-container,.optional-section{
+    margin: 5px 15px;
+}
+.Newsletter-input{
+    width:230px;
+}
+.Newsletter-input input{
+  padding: 20px;
+}
+
+.footer-text{
+  padding: 10px ;
+}
+
+footer hr{
+    width: 160px;
+ 
+}
 }
